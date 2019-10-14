@@ -1,0 +1,27 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# demo-chinese-text-classification-lstm-keras
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Demo [here].
+
+[here]: https://nbviewer.jupyter.org/urls/jiaxiangbu.github.io/demo-chinese-text-classification-lstm-keras/demo.ipynb
+
+
+***
+
+`r add2pkg::add_disclaimer("Shuyi Wang; Jiaxiang Li")`
