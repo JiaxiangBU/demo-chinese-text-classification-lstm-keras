@@ -3,3 +3,4 @@ zh.vec
 sentiment_model.h5
 .Rhistory
 sentiment_model-CNN-v.1.0.0.h5
+sentiment_model-Bidirectional-LSTM-v.1.0.0.h5
