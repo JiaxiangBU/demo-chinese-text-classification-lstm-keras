@@ -7,3 +7,5 @@ sentiment_model-Bidirectional-LSTM-v.1.0.0.h5
 refs/Tencent_AILab_ChineseEmbedding.tar.gz
 refs/Tencent_AILab_ChineseEmbedding.txt
 sentiment_model-Bidirectional-LSTM-with-w2v-Tencent_AILab-v.1.0.0.h5
+refs/zh.zip
+refs/zh

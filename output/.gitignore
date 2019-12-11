@@ -1,0 +1,3 @@
+word2vec_online_training.model
+word2vec_online_training.model.trainables.syn1neg.npy
+word2vec_online_training.model.wv.vectors.npy
