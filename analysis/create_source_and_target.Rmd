@@ -1,0 +1,18 @@
+```{r}
+library(tidyverse)
+library(fs)
+```
+
+```{r}
+df <- read_csv("../output/dianping_cut_df.csv")
+```
+
+```{r}
+df %>% 
+    mutate(
+        source = str_extract(text, "^\\p{Han}+\\s"),
+        target = str_remove(text, "^\\p{Han}+\\s")
+    ) %>% 
+    write_excel_csv("../output/dianping_with_source_and_target.csv")
+```
+
